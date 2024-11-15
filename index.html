@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateus Felix de Lima - Desenvolvedor Frontend</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    
+    <!-- Devicon Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <a href="#">
+            <h1 class="logo">MF</h1>
+        </a>
+        <nav class="menu">
+            <ul>
+                <li><a href="#projetos">Meus projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Inicial -->
+    <section class="home">
+        <div class="informacoes">
+            <h1>Olá! Sou Mateus Felix</h1>
+            <p>Um desenvolvedor frontend em formação apaixonado por tecnologia.</p>
+            <p>Estou sempre me desafiando com novos projetos e buscando feedback na
+                comunidade de programação, além de compartilhar meus conhecimentos.</p>
+            <p>Ah, também sou fã de jogos, filmes, séries e animes.</p>
+
+            <!-- Redes Sociais -->
+            <ul class="redes-sociais">
+                <li>
+                    <a href="https://www.linkedin.com/in/mateus-felix-lima/" title="Ir para o LinkedIn" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/5581994693730" title="Enviar mensagem no WhatsApp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/mateus-felix" title="Ir para o GitHub" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/mateusfelixl" title="Ir para o Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Foto de Perfil -->
+        <div class="container-foto">
+            <div class="foto sombra-interna">
+                <img src="./src/imagens/foto-minha.jpg" alt="Foto do portfólio do Mateus">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section class="projetos" id="projetos">
+        <h2 class="titulo">Meus projetos</h2>
+
+        <div class="container-projetos">
+            <!-- Projeto 1 -->
+            <div class="projeto ativo">
+                <a href="https://github.com/devedobro/projeto-gta" target="_blank">
+                    <img src="./src/imagens/projeto-gta.png" alt="Projeto landing page GTA">
+                    <h3>Projeto GTA</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Projeto 2 -->
+            <div class="projeto ativo">
+                <a href="https://github.com/devemdobro/projeto-listagem-pokemon" target="_blank">
+                    <img src="./src/imagens/projeto-listagem-pokemon.png" alt="Projeto listagem de Pokémons">
+                    <h3>Projeto Listagem de Pokémons</h3>
+                    <div class="informacoes-projeto">
+                        <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                        <p>🔗 Ver no GitHub Pages</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Botão Mostrar Mais -->
+        <button class="btn-mostrar-projetos">Mostrar mais</button>
+    </section>
+</body>
+
+</html>
